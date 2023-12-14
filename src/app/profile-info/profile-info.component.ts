@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 
 @Component({
   selector: 'app-profile-info',
@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./profile-info.component.css']
 })
 export class ProfileInfoComponent {
-  name = 'Joeseoh Ab';
-  profilPicUrl = 'assets/profil.jpg';
-  age = 23;
-  birthday = 'May 15'
-  bio = 'I like to program, I also like food and gym.';
-  interests = ['Programming', 'Swimming', 'Volleyball', 'Gym'];
+  @Input() name='';
+  @Input() profilPicUrl='';
+  @Input() age='';
+  @Input() birthday=''
+  @Input() bio='';
+  @Input() interests='';
 }
