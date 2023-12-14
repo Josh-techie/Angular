@@ -8,8 +8,8 @@ import { Component, OnInit, Input} from '@angular/core';
 export class ProfileInfoComponent {
   @Input() name='';
   @Input() profilPicUrl='';
-  @Input() age='';
+  @Input() age= 0;
   @Input() birthday=''
   @Input() bio='';
-  @Input() interests='';
+  @Input() interests: string[] = [];
 }
