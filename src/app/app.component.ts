@@ -11,4 +11,8 @@ import  { myProfileData, friendsData} from "./data";
 export class AppComponent {
    myProfileData: Person =  myProfileData;
    friendsData: Person[] = friendsData;
+
+   sayHello(){
+     alert('Hello my friends!');
+   }
 }
