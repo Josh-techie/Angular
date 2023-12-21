@@ -17,7 +17,7 @@ export class ProfileInfoComponent {
     interests: [],
   }
 
-  displayDetails (){
-   alert(`${this.person.name} is ${this.person.age} years old`);
+  displayDetails (name: string, age: number){
+   alert(`${name} is ${age} years old`);
   }
 }
