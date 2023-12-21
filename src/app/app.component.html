@@ -2,10 +2,15 @@
 
 <div>
   <app-profile-info
-    [person]="myPerson"
+    [person]="myProfileData"
   ></app-profile-info>
 
 <!--  the second component with different inputs-->
+<app-profile-info [person]="friendsData[0]">
+</app-profile-info>
+
+  <app-profile-info [person]="friendsData[1]">
+  </app-profile-info>
 
 </div>
 
