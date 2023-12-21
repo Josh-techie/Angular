@@ -3,7 +3,8 @@ import {Person} from "../../types";
 @Component({
   selector: 'app-profile-info',
   templateUrl: './profile-info.component.html',
-  styleUrls: ['./profile-info.component.css']
+  // here you can add another styles if you want
+  styleUrls: ['./profile-info.component.css', '../red_text.css']
 })
 export class ProfileInfoComponent {
   @Input() person: Person = {

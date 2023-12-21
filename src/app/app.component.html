@@ -1,17 +1,23 @@
 <h1> Friend Tracker </h1>
+<h2> Let's find out </h2>
 
-<div>
-  <app-profile-info
-    [person]="myProfileData"
-  ></app-profile-info>
+<div class="content-container">
+  <div class="normal-container">
+    <app-profile-info [person]="myProfileData"></app-profile-info>
+  </div>
 
 <!--  the second component with different inputs-->
-<app-profile-info [person]="friendsData[0]">
-</app-profile-info>
+  <div class="scrolling-container">
+    <app-profile-info [person]="friendsData[0]"></app-profile-info>
+  </div>
 
-  <app-profile-info [person]="friendsData[1]">
-  </app-profile-info>
+  <div class="border-container">
+    <app-profile-info [person]="friendsData[1]"></app-profile-info>
+  </div>
 
+  <div class="narrow-column-container">
+    <app-profile-info [person]="myProfileData"></app-profile-info>
+  </div>
 </div>
 
 
