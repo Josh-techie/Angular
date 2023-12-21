@@ -5,17 +5,28 @@
     <app-profile-info [person]="myProfileData"></app-profile-info>
   </div>
 
-<!--  the second component with different inputs-->
-  <div class="scrolling-container">
-    <app-profile-info [person]="friendsData[0]"></app-profile-info>
-  </div>
+<h2> My Friends</h2>
+  <div class="people-list">
+    <div class="people-list-item">
+      <app-person-card
+        [person]="friendsData[0]"
+        (click)="onPersonClicked(friendsData[0])"
+      ></app-person-card>
+    </div>
 
-  <div class="border-container">
-    <app-profile-info [person]="friendsData[1]"></app-profile-info>
-  </div>
+    <div class="people-list-item">
+      <app-person-card
+        [person]="friendsData[1]"
+        (click)="onPersonClicked(friendsData[1])"
+      ></app-person-card>
+    </div>
 
-  <div class="narrow-column-container">
-    <app-profile-info [person]="myProfileData"></app-profile-info>
+    <div class="people-list-item">
+      <app-person-card
+        [person]="friendsData[0]"
+        (click)="onPersonClicked(friendsData[1])"
+      ></app-person-card>
+    </div>
   </div>
 </div>
 

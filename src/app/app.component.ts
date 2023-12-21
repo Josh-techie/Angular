@@ -12,7 +12,7 @@ export class AppComponent {
    myProfileData: Person =  myProfileData;
    friendsData: Person[] = friendsData;
 
-   sayHello(){
-     alert('Hello my friends!');
-   }
+onPersonClicked( person: Person){
+  alert(`${person.name} likes ${person.interests.join((', '))}`)
+}
 }
