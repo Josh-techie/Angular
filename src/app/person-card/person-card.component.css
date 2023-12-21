@@ -27,4 +27,5 @@
   border-radius: 8px;
   display: flex;
   padding: 0px;
+  cursor: pointer;
 }
