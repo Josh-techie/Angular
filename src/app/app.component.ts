@@ -9,10 +9,10 @@ import {Person} from "../types";
 export class AppComponent {
    myPerson: Person = {
      profilePicUrl: 'assets/profil.jpg',
-    name : 'Marie',
-    age: 21,
-    bio: 'I like to eat and swim',
-    birthday: '23 March',
-    interests: ['Programming', 'Data Science', 'Gardening']
+     name : 'Marie',
+     age: 21,
+     bio: 'I like to eat and swim',
+     birthday: '23 March',
+     interests: ['Programming', 'Data Science', 'Gardening']
   }
 }
