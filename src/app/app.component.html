@@ -2,10 +2,14 @@
 
 <div class="content-container">
   <div class="normal-container">
+    <app-welcome-message [name]="myProfileData.name"></app-welcome-message>
+  </div>
+
+  <div class="normal-container">
     <app-profile-info [person]="myProfileData"></app-profile-info>
   </div>
 
-<h2> My Friends</h2>
+  <h2> My Friends</h2>
   <div class="people-list">
     <div class="people-list-item">
       <app-person-card
