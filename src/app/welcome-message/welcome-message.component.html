@@ -1,4 +1,5 @@
-<div class="welcome-message">
+<div class="welcome-message" *ngIf="!isHidden">
   <h2> Welcome to the Friend tracker APP, {{name}}</h2>
   <button (click)="hideMessage()"> Dismiss</button>
+
 </div>

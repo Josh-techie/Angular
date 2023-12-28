@@ -10,8 +10,11 @@ export class WelcomeMessageComponent {
 
   @Input() name!: string;
 
+  isHidden: boolean = false;
   hideMessage(): void {
-    alert('Hiding Welcome Message!');
+    this.isHidden = true;
   }
-
+  showMessage(): void {
+    this.isHidden = false;
+  }
 }
