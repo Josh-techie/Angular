@@ -25,8 +25,9 @@ I'm on a journey to master Angular, and this repository serves as my learning pl
 Feel free to clone or fork this repository and join me on the exciting adventure of learning Angular. Whether you're a beginner or looking to enhance your skills, there's something here for everyone.
 
 ---
-
-Happy coding! 🌐💡
+<h1 align="center">
+	Happy coding! 🌐💡
+</h1>
 
 <p align="center">
 <img src ="https://wallpapercave.com/wp/wp10475024.jpg">
