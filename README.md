@@ -26,6 +26,16 @@ Feel free to clone or fork this repository and join me on the exciting adventure
 
 ---
 
+## How to Contribute
+
+- Contributions are welcome! If you have ideas for new projects, improvements to existing code, or helpful guides, follow these simple steps:
+
+1. **Fork the Repository:** Click the "Fork" button on the top right to create your copy.
+2. **Make Changes:** Create a branch, make your changes, and commit them.
+3. **Open a Pull Request:** Submit your changes for review. Let's learn and grow together!
+
+---
+
 ## Author
 
 - [`@Josh-techie`]() | Software Engineer Student
